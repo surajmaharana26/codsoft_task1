@@ -1,0 +1,484 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(120deg, #3a3938,#0d0d0dcd);
+    /* background-image: url(backgroung.avif); */
+    animation: backgroundAnimation 8s infinite alternate;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+h1 {
+    padding-top: 50px;
+    font-size: 3.5rem;
+    color:#06d9fe;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Georgia', serif;
+}
+p {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #93cbd9;
+    margin: 1.5rem auto;
+    max-width: 60%;
+    line-height: 1.6;
+}
+
+/* Navigation Menu */
+nav {
+    display: flex;
+    justify-content: center;
+    background:#b0e6f0;
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0 1.5rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+nav a:hover {
+    background-color: #b0e6f0;
+    transform: scale(1.1);
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem;
+    text-align: center;
+}
+.hero img {
+    
+    margin-top: 25px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid white;
+    align-content: center;
+}
+
+.hero p {
+    font-style: italic;
+    font-size: 1.4rem;
+    color: #858583;
+    max-width: 80%;
+}
+ /* Footer Section */
+ footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: rgba(253, 253, 50, 0.942);
+    color: #74d1e1;
+    font-size: 0.9rem;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    p {
+        max-width: 90%;
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    nav a {
+        font-size: 1rem;
+        margin: 0 1rem;
+    }
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: black;
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    color: beige;
+    padding: 60px;
+}
+
+
+
+.container {
+    height: 50%;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background-position-x: 100%;
+    border-radius: 15px;
+}
+
+
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #c7e1ee;
+    margin-bottom: 30px;
+}
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color:bisque;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skills li {
+    background:#b0e6f0;
+    padding: 10px;
+    margin: 5px 10px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.skills li:hover {
+    background: #faf76a;
+}
+
+.about {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.resume{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap:3rem;
+    padding-left: 30px;
+    margin-top:20px;
+}
+.resume h2{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 60px;
+    line-height:1;
+    text-align: center;
+    margin-bottom: 4rem;
+    width:100%; 
+}
+.resume h2 span{
+    color:rgb(6, 238, 246);
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    background:rgba(250, 217, 3, 0.853);
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0 1.5rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+nav a:hover {
+    background-color: #F0BB78(255, 255, 255, 0.5);
+    transform: scale(1.1);
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+h1 {
+    font-size: 3rem;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px 10%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+/* Grid Container */
+.grid-container {
+    padding-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 100px;
+    justify-items: center;
+}
+
+/* Grid Item */
+.grid-item {
+    background-color: #1c779e;
+    border-radius: 10px;
+    padding: 80px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(132, 203, 226, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.grid-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.grid-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #94cbf3;
+}
+
+p {
+    color: #bae2e9;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+a {
+    font-size: 1.2rem;
+    color: #bacad0;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #0291c1;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    background-color: #faf886;
+    color: rgb(14, 16, 18);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #333;
+    margin-top: 50px;
+}
+
+footer p {
+    color:  #a77737;
+    font-size: 1rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* Background and text styling */
+
+
+/* Header */
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background:rgba(250, 217, 3, 0.853);
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0 1.5rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+nav a:hover {
+    background-color: #F0BB78(255, 255, 255, 0.5);
+    transform: scale(1.1);
+}
+h1 {
+    font-size: 3rem;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Contact Section */
+#contact {
+    padding-bottom: 10px; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+     margin-bottom: 30px; 
+}
+
+.contact-info {
+    margin-bottom: 40px;
+    text-align: center;
+    padding-left:50px
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    color: #fff;
+}
+
+/* Form Styling */
+form {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #b0e6f0;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    display: grid;
+    gap: 20px;
+    text-align: left;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #0b96b9e5;
+    background-color: rgba(17, 12, 12, 0.1);
+    color: white;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #0099ff;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Submit Button */
+.submit-btn {
+    background-color: #1c779e;
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #675a0f;
+}
+
+.submit-btn:focus {
+    outline: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #333;
+    margin-top: 30px;
+}
+
+footer p {
+    color: #fff;
+    font-size: 1rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
